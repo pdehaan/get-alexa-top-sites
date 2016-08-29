@@ -19,7 +19,7 @@ $ npm i pdehaan/get-alexa-top-sites -S
 const fs = require('fs');
 const path = require('path');
 
-const { getTopSites } = require('./index');
+const { getTopSites } = require('get-alexa-top-sites');
 
 getTopSites('top-1m.csv', 100)
   .then((topSites) => {
