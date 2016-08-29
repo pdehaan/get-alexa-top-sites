@@ -1,0 +1,24 @@
+{
+  "name": "get-alexa-top-sites",
+  "description": "Horribly inefficient method for parsing a 1 millon record CSV file and writing the top X records to a JSON file.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/get-alexa-top-sites/issues"
+  },
+  "dependencies": {
+    "csv-parse": "^1.1.7"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/get-alexa-top-sites#readme",
+  "keywords": [],
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/get-alexa-top-sites.git"
+  },
+  "scripts": {
+    "test": "node test"
+  }
+}
